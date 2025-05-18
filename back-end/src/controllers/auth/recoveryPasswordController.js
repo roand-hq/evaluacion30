@@ -1,4 +1,4 @@
-import { sendMail, HTMLRecoveryMail } from "../utils/mailRecoveryPassword.js";
+import { sendMail, HTMLRecoveryMail } from "../../utils/mailRecoveryPassword.js";
 import clientModel from "../../models/clients.js";
 import employeeModel from "../../models/employee.js";
 import jsonwebtoken from "jsonwebtoken";
